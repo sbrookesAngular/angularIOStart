@@ -1,0 +1,10 @@
+<!-- <p *ngIf="product && product.price > 700"> -->
+<p *ngIf="product && product.price > price">
+  <button type="button" style="backgroundColor:green;" (click)="notify.emit()">
+    ON SALE!!!
+  </button>
+</p>
+
+<!-- <p *ngIf="product && product.price > 700">
+  <button type="button" (click)="notify.emit()">Notify Me</button>
+</p> -->
